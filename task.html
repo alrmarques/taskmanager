@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Task Manager </title>
+        <link rel="stylesheet" type="text/css" href="styles.css">
+    </head>
+    <body>
+        <div class="container">
+            <h1>Task Manager</h1>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Title</th>
+                        <th>Description</th>
+                        <th>Completed</th>
+                        <th>Actions</th>
+                    </tr>
+                </thead>
+                <tbody> id="task-list"></tbody>
+            </table>
+            <form id="task-form">
+                <input type="text" name="title" placeholder="Task Title" autocomplete="on" >
+                <input type="text" name="description" placeholder="Task Description" autocomplete="on" >  
+                
+                <button type="submit">Add Task</button>
+            </form>
+        </div>
+            <script src="app.js"></script>
+    </body>
+</html>
